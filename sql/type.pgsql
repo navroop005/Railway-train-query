@@ -1,0 +1,1 @@
+CREATE TYPE train_rec as (src_train_id INTEGER, src_depart_time TIME(0), dest_train_id INTEGER, dest_arrival_time TIME(0), intm_station_code VARCHAR, intm_arrival TIME(0), intm_depart TIME(0), src_days INTEGER, dest_days INTEGER);
